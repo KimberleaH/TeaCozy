@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.9;
+    height: 51px;
+    padding: 9px 10px;
+    border-bottom: 1px solid seashell;
+}
+
+nav {
+    float: right;
+    padding-top: 9px;
+}
+
+nav span {
+    padding-right: 20px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+#mission {
+    height: 700px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 69px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+#banner {
+    width: 1200px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#teamonth {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#gallery {
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#gallery img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    height: 500px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#locations h2 {
+    padding-top: 40px;
+}
+
+.flex-locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#downtown, #bayside, #oakdale {
+    width: 300px;
+    background-color: black;
+    margin: 40px;
+    opacity: 0.9;
+}
+
+#oakdale {
+    opacity: 1;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 1186px) {
+ 
+    #mission {
+        background-size: cover;
+        height: 600px;
+    }
+
+    #locations {
+        height: 780px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 800px) {
+ 
+    #mission {
+        background-size: cover;
+        height: 500px;
+    }
+
+    #locations {
+        height: 1080px;
+        background-size: fill;
+    }
+
+    #locations h2 {
+        color: rgb(139, 133, 129);
+    }
+
+    footer {
+        padding-top: 20px;
+        text-align: center;
+    }
+}
